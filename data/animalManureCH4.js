@@ -1,7 +1,11 @@
 // CH4 Emissions from Manure Management (kt)
 
 {
-   {totalCH4a: {
+   {
+     key: totalCH4a,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 1486,
       1991: 1555,
       1992: 1500,
@@ -30,7 +34,10 @@
       2015: 2651
    },
    {
-      {dairyCattle: {
+      key: dairyCattle,
+      gasType: "CH4",
+      metricValue: "kt",
+      emissionsByYear: {
       1990: 590,
       1991: 607,
       1992: 591,
@@ -58,7 +65,11 @@
       2014: 1361,
       2015: 1391
    }},
-   {beefCattle: {
+   {
+     key: beefCattle,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 126,
       1991: 126,
       1992: 129,
@@ -86,7 +97,11 @@
       2014: 120,
       2015: 126
    }},
-   {swine: {
+   {
+     key: swine,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 622,
       1991: 674,
       1992: 637,
@@ -114,7 +129,11 @@
       2014: 890,
       2015: 985
    },
-   {sheep: {
+   {
+     key: swine,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 7,
       1991: 7,
       1992: 7,
@@ -142,7 +161,11 @@
       2014: 3,
       2015: 3
    }},
-   {goats: {
+   {
+     key: goats,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 1,
       1991: 1,
       1992: 1,
@@ -170,7 +193,11 @@
       2014: 1,
       2015: 1
    }},
-   {poultry: {
+   {
+     key: poultry,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 131,
       1991: 131,
       1992: 127,
@@ -198,7 +225,11 @@
       2014: 131,
       2015: 135
    }},
-   {horses: {
+   {
+     key: horses,
+     gasType: "CH4",
+     metricValue: "kt",
+     emissionsByYear: {
       1990: 9,
       1991: 9,
       1992: 9,
