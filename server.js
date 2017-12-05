@@ -10,6 +10,8 @@ const aws = require('aws-sdk');
 const s3 = new aws.S3({
   password: process.env.S3_KEY
 });
+
+console.log(s3.password);
   // password = require('./password');
 
 // mongoose instance connection url connection
