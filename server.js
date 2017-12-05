@@ -5,6 +5,8 @@ var express = require('express'),
   Data = require('./api/models/dataModel'), //created model loading here
   bodyParser = require('body-parser');
 
+const aws = require('aws-sdk');
+
 const s3 = new aws.S3({
   password: process.enc.S3_KEY
 });
