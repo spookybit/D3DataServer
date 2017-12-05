@@ -5,13 +5,13 @@ var express = require('express'),
   Data = require('./api/models/dataModel'), //created model loading here
   bodyParser = require('body-parser');
 
-const aws = require('aws-sdk');
-
-const s3 = new aws.S3({
-  password: process.env.S3_KEY
-});
-
-console.log(s3.password);
+// const aws = require('aws-sdk');
+//
+// const s3 = new aws.S3({
+//   password: process.env.S3_KEY
+// });
+//
+// console.log(s3.password);
   // password = require('./password');
 
 // mongoose instance connection url connection
@@ -22,8 +22,6 @@ mongoose.Promise = global.Promise;
 
 if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_URI);
-} else {
-  mongoose.connect(`mongodb://spookybit:${s3.password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
 }
 
 app.use(bodyParser.urlencoded({ extended: true }));
