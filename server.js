@@ -17,7 +17,8 @@ console.log(s3.password);
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb://localhost/D3Datadb');
-mongoose.connect(`mongodb://spookybit:${s3.password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
+// mongoose.connect(`mongodb://spookybit:${s3.password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
+mongoose.connect(`${MONGODB_URI}`)
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
