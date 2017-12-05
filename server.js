@@ -4,12 +4,16 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Data = require('./api/models/dataModel'), //created model loading here
   bodyParser = require('body-parser');
+
+const s3 = new aws.S3({
+  password: process.enc.S3_KEY
+});
   // password = require('./password');
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb://localhost/D3Datadb');
-mongoose.connect(`mongodb://spookybit:${password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
+mongoose.connect(`mongodb://spookybit:${s3.password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
