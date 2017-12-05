@@ -21,5 +21,5 @@ routes(app); //register the route
 
 app.listen(port);
 
-console.log(password);
+
 console.log('D3Data API server started on: ' + port);
