@@ -6,7 +6,6 @@ var express = require('express'),
   bodyParser = require('body-parser');
   password = require('./password');
 
-
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb://localhost/D3Datadb');
