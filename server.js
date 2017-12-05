@@ -4,7 +4,7 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Data = require('./api/models/dataModel'), //created model loading here
   bodyParser = require('body-parser');
-  password = require('./password');
+  // password = require('./password');
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
