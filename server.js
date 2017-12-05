@@ -8,7 +8,7 @@ var express = require('express'),
 const aws = require('aws-sdk');
 
 const s3 = new aws.S3({
-  password: process.enc.S3_KEY
+  password: process.env.S3_KEY
 });
   // password = require('./password');
 
