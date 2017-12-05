@@ -9,6 +9,7 @@ var DataSchema = new Schema({
   },
   gasType: String,
   metricValue: String,
+  productOf: String,
   emissionsByYear: {
     type: Object
   },
