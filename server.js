@@ -23,6 +23,8 @@ mongoose.Promise = global.Promise;
 
 if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_URI);
+} else {
+  mongoose.connect('mongodb://localhost/D3Datadb');
 }
 
 app.use(bodyParser.urlencoded({ extended: true }));

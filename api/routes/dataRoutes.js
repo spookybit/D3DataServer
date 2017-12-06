@@ -13,10 +13,10 @@ module.exports = function(app) {
     .get(dataList.list_data)
     .post(dataList.create_data);
 
-
-  // app.route('/data/:dataId')
   app.route('/data/:key')
     .get(dataList.read_data)
+
+  app.route('/data/:dataId')
     .put(dataList.update_data)
     .delete(dataList.delete_data);
 
@@ -26,6 +26,8 @@ module.exports = function(app) {
 
   app.route('/industry/:key')
     .get(industryList.read_industry)
+
+  app.route('/industry/:industryId')
     .put(industryList.update_industry)
     .delete(industryList.delete_industry);
 };
