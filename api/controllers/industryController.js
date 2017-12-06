@@ -32,7 +32,7 @@ exports.read_industry = function(req, res) {
 
 
 exports.update_industry = function(req, res) {
-  Industry.findOneAndUpdate({_id: req.params.industryId}, req.body, {new: true}, function(err, data) {
+  Industry.findOneAndUpdate({_id: req.params.dataId}, req.body, {new: true}, function(err, data) {
     if (err)
       res.send(err);
     res.json(data);
@@ -42,7 +42,7 @@ exports.update_industry = function(req, res) {
 
 exports.delete_industry = function(req, res) {
   Industry.remove({
-    _id: req.params.industryId
+    _id: req.params.dataId
   }, function(err, data) {
     if (err)
       res.send(err);
