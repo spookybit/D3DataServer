@@ -3,6 +3,7 @@ var express = require('express'),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
   Data = require('./api/models/dataModel'), //created model loading here
+  Industry = require('./api/models/industryModel'), //created model loading here
   bodyParser = require('body-parser');
 
 // const aws = require('aws-sdk');
