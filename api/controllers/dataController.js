@@ -1,6 +1,5 @@
 'use strict';
 
-
 var mongoose = require('mongoose'),
   Data = mongoose.model('Data');
 
@@ -12,13 +11,8 @@ exports.list_data = function(req, res) {
   });
 };
 
-
-
-
 exports.create_data = function(req, res) {
   var new_data = new Data(req.body);
-  console.log(req.body);
-  console.log(new_data);
   new_data.save(function(err, data) {
     if (err)
       res.send(err);
@@ -46,8 +40,6 @@ exports.update_data = function(req, res) {
 
 
 exports.delete_data = function(req, res) {
-
-
   Data.remove({
     _id: req.params.dataId
   }, function(err, data) {
