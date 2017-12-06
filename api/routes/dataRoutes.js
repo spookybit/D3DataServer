@@ -13,7 +13,8 @@ module.exports = function(app) {
     .post(dataList.create_data);
 
 
-  app.route('/data/:dataId')
+  // app.route('/data/:dataId')
+  app.route('/data/:key')
     .get(dataList.read_data)
     .put(dataList.update_data)
     .delete(dataList.delete_data);
