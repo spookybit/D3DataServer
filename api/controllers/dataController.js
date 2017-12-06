@@ -23,7 +23,7 @@ exports.create_data = function(req, res) {
 
 exports.read_data = function(req, res) {
   // Data.findById(req.params.dataId, function(err, data) {
-  Data.find({req.params.key}, function(err, data) {
+  Data.find({'key': req.params.key}, function(err, data) {
     if (err)
       res.send(err);
     res.json(data);
