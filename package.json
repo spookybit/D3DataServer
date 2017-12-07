@@ -15,6 +15,7 @@
   "dependencies": {
     "aws-sdk": "^2.163.0",
     "express": "^4.16.2",
-    "mongoose": "^4.13.6"
+    "mongoose": "^4.13.6",
+    "node-mongo-seeds": "^2.3.2"
   }
 }

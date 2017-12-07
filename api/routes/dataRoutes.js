@@ -9,14 +9,14 @@ module.exports = function(app) {
     next();
   });
 
-  app.route('/data')
+  app.route('/agriculture')
     .get(dataList.list_data)
     .post(dataList.create_data);
 
-  app.route('/data/:key')
+  app.route('/agriculture/:key')
     .get(dataList.read_data)
 
-  app.route('/data/:dataId')
+  app.route('/agriculture/:dataId')
     .put(dataList.update_data)
     .delete(dataList.delete_data);
 
