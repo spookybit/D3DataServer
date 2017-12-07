@@ -40,4 +40,5 @@ app.listen(port);
 
 
 console.log('D3Data API server started on: ' + port);
-console.log(process.env.MONGODB_URI)
+console.log(process.env.MONGODB_URI);
+console.log('*****************************************')
