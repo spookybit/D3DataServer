@@ -1,4 +1,5 @@
 [
-  {"seed": "success"},
-  {"woot": "woot!"}
+  {"key": "success1", "metricValue": "stuff", "productOf": "string", "emissionsByYear": {"stuff": 100, "lol": 191}},
+  {"key": "success2", "metricValue": "stuff", "productOf": "string", "emissionsByYear": {"stuff": 100, "lol": 191}}
+  {"key": "success3", "metricValue": "stuff", "productOf": "string", "emissionsByYear": {"stuff": 100, "lol": 191}}
 ]
