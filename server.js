@@ -18,6 +18,7 @@ var express = require('express'),
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb://localhost/D3Datadb');
+// mongodb://dbuser:dbpass@host:port/dbname
 // mongoose.connect(`${MONGODB_URI}`)
 // mongoose.connect(`mongodb://spookybit:${s3.password}@ds155411.mlab.com:55411/heroku_skhwf7mp`)
 
