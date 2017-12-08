@@ -11,9 +11,5 @@ Industry.remove({}, function(err, data) {});
 
 industrySeeds.forEach(function(el) {
   let newData = new IndustryModel(el);
-  newData.save(function(err, data) {
-    // if (err)
-    //   data.send(err);
-    // data.json(data);
-  });
+  newData.save(function(err, data) {});
 })
