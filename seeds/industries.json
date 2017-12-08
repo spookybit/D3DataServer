@@ -1,20 +1,20 @@
 [
   {
-    "key": "success1",
+    "key": "success1del",
     "gasType": "lel",
     "metricValue": "stuff",
     "productOf": "string",
     "emissionsByYear": {"stuff": 100, "lol": 191}
   },
   {
-    "key": "success2",
+    "key": "success2del",
     "gasType": "lel",
     "metricValue": "stuff",
     "productOf": "string",
     "emissionsByYear": {"stuff": 100, "lol": 191}
   },
   {
-    "key": "success3",
+    "key": "success3del",
     "gasType": "lel",
     "metricValue": "stuff",
     "productOf": "string",
