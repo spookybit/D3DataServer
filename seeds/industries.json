@@ -11,7 +11,8 @@
     "gasType": "lel",
     "metricValue": "stuff",
     "productOf": "string",
-    "emissionsByYear": {"stuff": 100, "lol": 191}
+    "emissionsByYear": {"stuff": 100, "lol": 191},
+    "thiss": "this"
   },
   {
     "key": "success3del",
