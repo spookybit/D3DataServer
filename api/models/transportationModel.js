@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var AgricultureSchema = new Schema({
+var TransportationSchema = new Schema({
   key: {
     type: String
   },
@@ -15,7 +15,8 @@ var AgricultureSchema = new Schema({
   // Created_date: {
   //   type: Date,
   //   default: Date.now
-  // }
+  // },
+  Notes: Object
 });
 
-module.exports = mongoose.model('Agriculture', AgricultureSchema);
+module.exports = mongoose.model('Transportation', TransportationSchema);

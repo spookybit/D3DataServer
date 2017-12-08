@@ -4,6 +4,7 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Agriculture = require('./api/models/agricultureModel'), //created model loading here
   Industry = require('./api/models/industryModel'), //created model loading here
+  Transportation = require('./api/models/transportationModel'),
   bodyParser = require('body-parser');
 
 // const aws = require('aws-sdk');

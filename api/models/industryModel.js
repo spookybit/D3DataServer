@@ -12,10 +12,10 @@ var IndustrySchema = new Schema({
   emissionsByYear: {
     type: Object
   },
-  Created_date: {
-    type: Date,
-    default: Date.now
-  },
+  // Created_date: {
+  //   type: Date,
+  //   default: Date.now
+  // },
   Notes: Object
 });
 
