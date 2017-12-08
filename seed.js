@@ -13,7 +13,7 @@ industrySeeds.forEach(function(el) {
   let newData = new IndustryModel(el);
   newData.save(function(err, data) {
     if (err)
-      res.send(err);
-    res.json(data);
+      data.send(err);
+    data.json(data);
   });
 })
