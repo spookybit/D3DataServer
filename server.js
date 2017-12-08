@@ -2,7 +2,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
-  Data = require('./api/models/dataModel'), //created model loading here
+  Agriculture = require('./api/models/agricultureModel'), //created model loading here
   Industry = require('./api/models/industryModel'), //created model loading here
   bodyParser = require('body-parser');
 
@@ -39,6 +39,6 @@ routes(app); //register the route
 app.listen(port);
 
 
-console.log('D3Data API server started on: ' + port);
-console.log(process.env.MONGODB_URI);
-console.log('*****************************************')
+// console.log('D3Data API server started on: ' + port);
+// console.log(process.env.MONGODB_URI);
+// console.log('*****************************************')

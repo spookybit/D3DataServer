@@ -1,10 +1,10 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-  Data = mongoose.model('Data');
+  Agriculture = mongoose.model('Agriculture');
 
 exports.list_data = function(req, res) {
-  Data.find({}, function(err, data) {
+  Agriculture.find({}, function(err, data) {
     if (err)
       res.send(err);
     res.json(data);
@@ -12,7 +12,7 @@ exports.list_data = function(req, res) {
 };
 
 exports.create_data = function(req, res) {
-  var new_data = new Data(req.body);
+  var new_data = new Agriculture(req.body);
   new_data.save(function(err, data) {
     if (err)
       res.send(err);
@@ -22,8 +22,8 @@ exports.create_data = function(req, res) {
 
 
 exports.read_data = function(req, res) {
-  // Data.findById(req.params.dataId, function(err, data) {
-  Data.find({'key': req.params.key}, function(err, data) {
+  // Agriculture.findById(req.params.dataId, function(err, data) {
+  Agriculture.find({'key': req.params.key}, function(err, data) {
     if (err)
       res.send(err);
     res.json(data);
@@ -32,7 +32,7 @@ exports.read_data = function(req, res) {
 
 
 exports.update_data = function(req, res) {
-  Data.findOneAndUpdate({_id: req.params.dataId}, req.body, {new: true}, function(err, data) {
+  Agriculture.findOneAndUpdate({_id: req.params.dataId}, req.body, {new: true}, function(err, data) {
     if (err)
       res.send(err);
     res.json(data);
@@ -41,7 +41,7 @@ exports.update_data = function(req, res) {
 
 
 exports.delete_data = function(req, res) {
-  Data.remove({
+  Agriculture.remove({
     _id: req.params.dataId
   }, function(err, data) {
     if (err)

@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var DataSchema = new Schema({
+var AgricultureSchema = new Schema({
   key: {
     type: String
   },
@@ -18,4 +18,4 @@ var DataSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Data', DataSchema);
+module.exports = mongoose.model('Agriculture', AgricultureSchema);

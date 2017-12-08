@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var dataList = require('../controllers/dataController');
+  var agricultureList = require('../controllers/agricultureController');
   var industryList = require('../controllers/industryController');
 
   app.all('*', function(req, res, next) {
@@ -10,15 +10,15 @@ module.exports = function(app) {
   });
 
   app.route('/agriculture')
-    .get(dataList.list_data)
-    .post(dataList.create_data);
+    .get(agricultureList.list_data)
+    .post(agricultureList.create_data);
 
   app.route('/agriculture/:key')
-    .get(dataList.read_data)
+    .get(agricultureList.read_data)
 
   app.route('/agriculture/:dataId')
-    .put(dataList.update_data)
-    .delete(dataList.delete_data);
+    .put(agricultureList.update_data)
+    .delete(agricultureList.delete_data);
 
   app.route('/industry')
     .get(industryList.list_industry)
