@@ -264,7 +264,7 @@
       "2013a": 433.9,
       "2014a": 447.7,
       "2015a, b": 460.7},
-      "Notes": "Gasoline and diesel highway vehicle fuel consumption estimates are based on data from FHWA Highway Statistics Table MF-21, MF-27, and VM-1 (FHWA 1996 through 2016). In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years in this Inventory.� The method changes resulted in a decrease in the estimated motor gasoline consumption for the transportation sector and a subsequent increase in the commercial and industrial sectors of this Inventory for 2015.� The method updates are discussed further in the Planned Improvements section below under CO2 from Fossil Fuel Combustion. Data from Table VM-1 is used to estimate the share of consumption between each on-road vehicle class. These fuel consumption estimates are combined with estimates of fuel shares by vehicle type from DOE�s TEDB Annex Tables A.1 through A.6 (DOE 1993 through 2016). TEDB data for 2015 has not been published yet, therefore 2014 data is used as a proxy."
+      "Notes": "Gasoline and diesel highway vehicle fuel consumption estimates are based on data from FHWA Highway Statistics Table MF-21, MF-27, and VM-1 (FHWA 1996 through 2016). In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years in this Inventory. The method changes resulted in a decrease in the estimated motor gasoline consumption for the transportation sector and a subsequent increase in the commercial and industrial sectors of this Inventory for 2015. The method updates are discussed further in the Planned Improvements section below under CO2 from Fossil Fuel Combustion. Data from Table VM-1 is used to estimate the share of consumption between each on-road vehicle class. These fuel consumption estimates are combined with estimates of fuel shares by vehicle type from DOEs TEDB Annex Tables A.1 through A.6 (DOE 1993 through 2016). TEDB data for 2015 has not been published yet, therefore 2014 data is used as a proxy."
    },
    {
       "Fuel/Vehicle Type": "Passenger Cars",
@@ -598,7 +598,7 @@
       "2013a": 114.3,
       "2014a": 115.2,
       "2015a, b": 119},
-      "Notes": "Commercial aircraft, as modeled in FAA�s AEDT, consists of passenger aircraft, cargo, and other chartered flights."
+      "Notes": "Commercial aircraft, as modeled in FAAs AEDT, consists of passenger aircraft, cargo, and other chartered flights."
    },
    {
       "Fuel/Vehicle Type": "Military Aircraft",
