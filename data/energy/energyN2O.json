@@ -1,6 +1,6 @@
 [
    {
-      "Gas/Source": "N2O",
+      "key": "N2O",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -33,7 +33,7 @@
       "2015": 38.6
    }},
    {
-      "Gas/Source": "Stationary Combustion",
+      "key": "Stationary Combustion",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -66,7 +66,7 @@
       "2015": 23.1
    }},
    {
-      "Gas/Source": "Mobile Combustiona",
+      "key": "Mobile Combustiona",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -99,7 +99,7 @@
       "2015": 15.1
    }},
    {
-      "Gas/Source": "Incineration of Waste",
+      "key": "Incineration of Waste",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -132,7 +132,7 @@
       "2015": 0.3
    }},
    {
-      "Gas/Source": "International Bunker Fuelsb",
+      "key": "International Bunker Fuelsb",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",

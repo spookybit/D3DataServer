@@ -1,6 +1,6 @@
 [
    {
-      "Gas/Source": "CO2",
+      "key": "CO2",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -33,7 +33,7 @@
       "2015": 5231.9
    }},
    {
-      "Gas/Source": "Fossil Fuel Combustion",
+      "key": "Fossil Fuel Combustion",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -68,7 +68,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion Electricity Generation",
+      "key": "Fossil Fuel Combustion Electricity Generation",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -103,7 +103,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion Transportation",
+      "key": "Fossil Fuel Combustion Transportation",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -138,7 +138,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion Industrial",
+      "key": "Fossil Fuel Combustion Industrial",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -173,7 +173,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion Residential",
+      "key": "Fossil Fuel Combustion Residential",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -208,7 +208,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion Commercial",
+      "key": "Fossil Fuel Combustion Commercial",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -243,7 +243,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Fossil Fuel Combustion U.S. Territories",
+      "key": "Fossil Fuel Combustion U.S. Territories",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -278,7 +278,7 @@
    "Notes": "In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years"
  },
    {
-      "Gas/Source": "Non-Energy Use of Fuels",
+      "key": "Non-Energy Use of Fuels",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -311,7 +311,7 @@
       "2015": 125.5
    }},
    {
-      "Gas/Source": "Natural Gas Systems",
+      "key": "Natural Gas Systems",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -344,7 +344,7 @@
       "2015": 42.4
    }},
    {
-      "Gas/Source": "Incineration of Waste",
+      "key": "Incineration of Waste",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -377,7 +377,7 @@
       "2015": 10.7
    }},
    {
-      "Gas/Source": "Petroleum Systems",
+      "key": "Petroleum Systems",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -410,7 +410,7 @@
       "2015": 3.6
    }},
    {
-      "Gas/Source": "Biomass-Wood",
+      "key": "Biomass-Wood",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -443,7 +443,7 @@
       "2015": 198.7
    }},
    {
-      "Gas/Source": "International Bunker Fuels",
+      "key": "International Bunker Fuels",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -476,7 +476,7 @@
       "2015": 110.8
    }},
    {
-      "Gas/Source": "Biofuels-Ethanol",
+      "key": "Biofuels-Ethanol",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -509,7 +509,7 @@
       "2015": 78.9
    }},
    {
-      "Gas/Source": "Biofuels-Biodiesel",
+      "key": "Biofuels-Biodiesel",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -542,7 +542,7 @@
       "2015": 14.1
    }},
    {
-      "Gas/Source": "CH4",
+      "key": "CH4",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -575,7 +575,7 @@
       "2015": 278.6
    }},
    {
-      "Gas/Source": "Natural Gas Systems",
+      "key": "Natural Gas Systems",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -608,7 +608,7 @@
       "2015": 162.4
    }},
    {
-      "Gas/Source": "Coal Mining",
+      "key": "Coal Mining",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -641,7 +641,7 @@
       "2015": 60.9
    }},
    {
-      "Gas/Source": "Petroleum Systems",
+      "key": "Petroleum Systems",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -674,7 +674,7 @@
       "2015": 39.9
    }},
    {
-      "Gas/Source": "Stationary Combustion",
+      "key": "Stationary Combustion",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -707,7 +707,7 @@
       "2015": 7
    }},
    {
-      "Gas/Source": "Abandoned Underground Coal Mines",
+      "key": "Abandoned Underground Coal Mines",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -740,7 +740,7 @@
       "2015": 6.4
    }},
    {
-      "Gas/Source": "Mobile Combustiona",
+      "key": "Mobile Combustiona",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -773,7 +773,7 @@
       "2015": 2
    }},
    {
-      "Gas/Source": "Incineration of Waste",
+      "key": "Incineration of Waste",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -806,7 +806,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "International Bunker Fuelsb",
+      "key": "International Bunker Fuelsb",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -839,7 +839,7 @@
       "2015": 0.1
    }},
    {
-      "Gas/Source": "N2O",
+      "key": "N2O",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -872,7 +872,7 @@
       "2015": 38.6
    }},
    {
-      "Gas/Source": "Stationary Combustion",
+      "key": "Stationary Combustion",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -905,7 +905,7 @@
       "2015": 23.1
    }},
    {
-      "Gas/Source": "Mobile Combustiona",
+      "key": "Mobile Combustiona",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -938,7 +938,7 @@
       "2015": 15.1
    }},
    {
-      "Gas/Source": "Incineration of Waste",
+      "key": "Incineration of Waste",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",
@@ -971,7 +971,7 @@
       "2015": 0.3
    }},
    {
-      "Gas/Source": "International Bunker Fuelsb",
+      "key": "International Bunker Fuelsb",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Energy Emissions",

@@ -1,6 +1,6 @@
 [
    {
-      "Fuel/Vehicle Type": "Gasoline",
+      "key": "Gasoline",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -33,7 +33,7 @@
       "2015a, b": 1070.5}
    },
    {
-      "Fuel/Vehicle Type": "Passenger Cars",
+      "key": "Passenger Cars",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -66,7 +66,7 @@
       "2015a, b": 731.3}
    },
    {
-      "Fuel/Vehicle Type": "Light-Duty Trucks",
+      "key": "Light-Duty Trucks",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -99,7 +99,7 @@
       "2015a, b": 283.2}
    },
    {
-      "Fuel/Vehicle Type": "Medium- and Heavy-Duty Trucks",
+      "key": "Medium- and Heavy-Duty Trucks",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -133,7 +133,7 @@
       "Notes": "Includes medium- and heavy-duty trucks over 8,500 lbs."
    },
    {
-      "Fuel/Vehicle Type": "Buses",
+      "key": "Buses",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -166,7 +166,7 @@
       "2015a, b": 0.9}
    },
    {
-      "Fuel/Vehicle Type": "Motorcycles",
+      "key": "Motorcycles",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -199,7 +199,7 @@
       "2015a, b": 3.7}
    },
    {
-      "Fuel/Vehicle Type": "Recreational Boats",
+      "key": "Recreational Boats",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -233,7 +233,7 @@
       "Notes": "In 2014, EPA incorporated the NONROAD2008 model into MOVES2014. The current Inventory uses the NONROAD component of MOVES2014a for years 1999 through 2015."
    },
    {
-      "Fuel/Vehicle Type": "Distillate Fuel Oil (Diesel)",
+      "key": "Distillate Fuel Oil (Diesel)",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -267,7 +267,7 @@
       "Notes": "Gasoline and diesel highway vehicle fuel consumption estimates are based on data from FHWA Highway Statistics Table MF-21, MF-27, and VM-1 (FHWA 1996 through 2016). In 2016, FHWA changed its methods for estimating the share of gasoline used in on-road and non-road applications, which created a time-series inconsistency between 2015 and previous years in this Inventory.� The method changes resulted in a decrease in the estimated motor gasoline consumption for the transportation sector and a subsequent increase in the commercial and industrial sectors of this Inventory for 2015.� The method updates are discussed further in the Planned Improvements section below under CO2 from Fossil Fuel Combustion. Data from Table VM-1 is used to estimate the share of consumption between each on-road vehicle class. These fuel consumption estimates are combined with estimates of fuel shares by vehicle type from DOE�s TEDB Annex Tables A.1 through A.6 (DOE 1993 through 2016). TEDB data for 2015 has not been published yet, therefore 2014 data is used as a proxy."
    },
    {
-      "Fuel/Vehicle Type": "Passenger Cars",
+      "key": "Passenger Cars",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -300,7 +300,7 @@
       "2015a, b": 4.3}
    },
    {
-      "Fuel/Vehicle Type": "Light-Duty Trucks",
+      "key": "Light-Duty Trucks",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -333,7 +333,7 @@
       "2015a, b": 13.9}
    },
    {
-      "Fuel/Vehicle Type": "Medium- and Heavy-Duty Trucks",
+      "key": "Medium- and Heavy-Duty Trucks",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -367,7 +367,7 @@
       "Notes": "Includes medium- and heavy-duty trucks over 8,500 lbs."
    },
    {
-      "Fuel/Vehicle Type": "Buses",
+      "key": "Buses",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -400,7 +400,7 @@
       "2015a, b": 17.3}
    },
    {
-      "Fuel/Vehicle Type": "Rail",
+      "key": "Rail",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -433,7 +433,7 @@
       "2015a, b": 39.9}
    },
    {
-      "Fuel/Vehicle Type": "Recreational Boats",
+      "key": "Recreational Boats",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -466,7 +466,7 @@
       "2015a, b": 3.9}
    },
    {
-      "Fuel/Vehicle Type": "Ships and Non-Recreational Boats",
+      "key": "Ships and Non-Recreational Boats",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -500,7 +500,7 @@
       "Notes": "Note that large year over year fluctuations in emission estimates partially reflect nature of data collection for these sources."
    },
    {
-      "Fuel/Vehicle Type": "International Bunker Fuels",
+      "key": "International Bunker Fuels",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -534,7 +534,7 @@
       "Notes": "Official estimates exclude emissions from the combustion of both aviation and marine international bunker fuels; however, estimates including international bunker fuel-related emissions are presented for informational purposes."
    },
    {
-      "Fuel/Vehicle Type": "Jet Fuel",
+      "key": "Jet Fuel",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -567,7 +567,7 @@
       "2015a, b": 157.7}
    },
    {
-      "Fuel/Vehicle Type": "Commercial Aircraft",
+      "key": "Commercial Aircraft",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -601,7 +601,7 @@
       "Notes": "Commercial aircraft, as modeled in FAA�s AEDT, consists of passenger aircraft, cargo, and other chartered flights."
    },
    {
-      "Fuel/Vehicle Type": "Military Aircraft",
+      "key": "Military Aircraft",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -634,7 +634,7 @@
       "2015a, b": 14.7}
    },
    {
-      "Fuel/Vehicle Type": "General Aviation Aircraft",
+      "key": "General Aviation Aircraft",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -667,7 +667,7 @@
       "2015a, b": 24}
    },
    {
-      "Fuel/Vehicle Type": "International Bunker Fuels",
+      "key": "International Bunker Fuels",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -701,7 +701,7 @@
       "Notes": "Official estimates exclude emissions from the combustion of both aviation and marine international bunker fuels; however, estimates including international bunker fuel-related emissions are presented for informational purposes."
    },
    {
-      "Fuel/Vehicle Type": "International Bunker Fuels from Commercial Aviation ",
+      "key": "International Bunker Fuels from Commercial Aviation ",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -734,7 +734,7 @@
       "2015a, b": 68.6}
    },
    {
-      "Fuel/Vehicle Type": "Aviation Gasoline",
+      "key": "Aviation Gasoline",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -767,7 +767,7 @@
       "2015a, b": 1.5}
    },
    {
-      "Fuel/Vehicle Type": "General Aviation Aircraft",
+      "key": "General Aviation Aircraft",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -800,7 +800,7 @@
       "2015a, b": 1.5}
    },
    {
-      "Fuel/Vehicle Type": "Residual Fuel Oil",
+      "key": "Residual Fuel Oil",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -833,7 +833,7 @@
       "2015a, b": 4.2}
    },
    {
-      "Fuel/Vehicle Type": "Ships and Boats",
+      "key": "Ships and Boats",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",
@@ -867,7 +867,7 @@
       "Notes": "Note that large year over year fluctuations in emission estimates partially reflect nature of data collection for these sources."
    },
    {
-      "Fuel/Vehicle Type": "International Bunker Fuels",
+      "key": "International Bunker Fuels",
       "gasType": "CO2",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Gasoline Combustion in Transportation",

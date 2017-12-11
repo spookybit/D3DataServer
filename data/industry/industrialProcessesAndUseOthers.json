@@ -1,6 +1,6 @@
 [
    {
-      "Gas/Source": "CH4",
+      "key": "CH4",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -33,7 +33,7 @@
       "2015": 0.2
    }},
    {
-      "Gas/Source": "Petrochemical Production",
+      "key": "Petrochemical Production",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -66,7 +66,7 @@
       "2015": 0.2
    }},
    {
-      "Gas/Source": "Ferroalloy Production",
+      "key": "Ferroalloy Production",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -99,7 +99,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "Silicon Carbide Production and Consumption",
+      "key": "Silicon Carbide Production and Consumption",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -132,7 +132,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "Iron and Steel Production & Metallurgical Coke Production",
+      "key": "Iron and Steel Production & Metallurgical Coke Production",
       "gasType": "CH4",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -165,7 +165,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "Iron and Steel Production",
+      "key": "Iron and Steel Production",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -198,7 +198,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "Metallurgical Coke Production",
+      "key": "Metallurgical Coke Production",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -231,7 +231,7 @@
       "2015": 0
    }},
    {
-      "Gas/Source": "N2O",
+      "key": "N2O",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -264,7 +264,7 @@
       "2015": 20.3
    }},
    {
-      "Gas/Source": "Nitric Acid Production",
+      "key": "Nitric Acid Production",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -297,7 +297,7 @@
       "2015": 11.6
    }},
    {
-      "Gas/Source": "Adipic Acid Production",
+      "key": "Adipic Acid Production",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -330,7 +330,7 @@
       "2015": 4.3
    }},
    {
-      "Gas/Source": "N2O from Product Uses",
+      "key": "N2O from Product Uses",
       "gasType": "N2O",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -363,7 +363,7 @@
       "2015": 4.2
    }},
    {
-      "Gas/Source": "HFCs",
+      "key": "HFCs",
       "gasType": "HFCs",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -396,7 +396,7 @@
       "2015": 173.2
    }},
    {
-      "Gas/Source": "HCFC-22 Production",
+      "key": "HCFC-22 Production",
       "gasType": "HCFC-22",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
@@ -429,7 +429,7 @@
       "2015": 4.3
    }},
    {
-      "Gas/Source": "PFCs",
+      "key": "PFCs",
       "gasType": "PFCs",
       "metricValue": "MMT CO2 eq.",
       "productOf": "Industrial Processes and Use",
