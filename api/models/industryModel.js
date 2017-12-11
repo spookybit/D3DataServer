@@ -16,7 +16,7 @@ var IndustrySchema = new Schema({
   //   type: Date,
   //   default: Date.now
   // },
-  Notes: Object
+  Notes: String
 });
 
 module.exports = mongoose.model('Industry', IndustrySchema);

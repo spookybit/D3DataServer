@@ -16,7 +16,7 @@ var TransportationSchema = new Schema({
   //   type: Date,
   //   default: Date.now
   // },
-  Notes: Object
+  Notes: String
 });
 
 module.exports = mongoose.model('Transportation', TransportationSchema);

@@ -16,6 +16,7 @@ var AgricultureSchema = new Schema({
   //   type: Date,
   //   default: Date.now
   // }
+  Notes: String
 });
 
 module.exports = mongoose.model('Agriculture', AgricultureSchema);
