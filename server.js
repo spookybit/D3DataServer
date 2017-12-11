@@ -2,9 +2,11 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
+  // Schema hasn't been registered for model "Energy" error runs if schema isn't initiated in server.js file
   Agriculture = require('./api/models/agricultureModel'), //created model loading here
   Industry = require('./api/models/industryModel'), //created model loading here
   Transportation = require('./api/models/transportationModel'),
+  Energy = require('./api/models/energyModel'),
   bodyParser = require('body-parser');
 
 // const aws = require('aws-sdk');
