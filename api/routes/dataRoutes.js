@@ -3,6 +3,7 @@ module.exports = function(app) {
   var agricultureList = require('../controllers/agricultureController');
   var industryList = require('../controllers/industryController');
   var transportationList = require('../controllers/transportationController');
+  var energyList = require('../controllers/energyController');
 
   app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -42,4 +43,15 @@ module.exports = function(app) {
   app.route('/transportation/:transportationId')
     .put(transportationList.update_transportation)
     .delete(transportationList.delete_transportation);
+
+  app.route('/energy')
+    .get(energyList.list_energy)
+    .post(energyList.create_energy);
+
+  app.route('/energy/:key')
+    .get(energyList.read_energy)
+
+  app.route('/energy/:energyId')
+    .put(energyList.update_energy)
+    .delete(energyList.delete_energy);
 };
