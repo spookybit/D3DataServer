@@ -13,45 +13,45 @@ module.exports = function(app) {
 
   app.route('/agriculture')
     .get(agricultureList.list_data)
-    .post(agricultureList.create_data);
+    // .post(agricultureList.create_data);
 
   app.route('/agriculture/:key')
     .get(agricultureList.read_data)
 
-  app.route('/agriculture/:dataId')
-    .put(agricultureList.update_data)
-    .delete(agricultureList.delete_data);
+  // app.route('/agriculture/:dataId')
+  //   .put(agricultureList.update_data)
+  //   .delete(agricultureList.delete_data);
 
   app.route('/industry')
     .get(industryList.list_industry)
-    .post(industryList.create_industry);
+    // .post(industryList.create_industry);
 
   app.route('/industry/:key')
     .get(industryList.read_industry)
 
-  app.route('/industry/:industryId')
-    .put(industryList.update_industry)
-    .delete(industryList.delete_industry);
+  // app.route('/industry/:industryId')
+  //   .put(industryList.update_industry)
+  //   .delete(industryList.delete_industry);
 
   app.route('/transportation')
     .get(transportationList.list_transportation)
-    .post(transportationList.create_transportation);
+    // .post(transportationList.create_transportation);
 
   app.route('/transportation/:key')
     .get(transportationList.read_transportation)
 
-  app.route('/transportation/:transportationId')
-    .put(transportationList.update_transportation)
-    .delete(transportationList.delete_transportation);
+  // app.route('/transportation/:transportationId')
+  //   .put(transportationList.update_transportation)
+  //   .delete(transportationList.delete_transportation);
 
   app.route('/energy')
     .get(energyList.list_energy)
-    .post(energyList.create_energy);
+    // .post(energyList.create_energy);
 
   app.route('/energy/:key')
     .get(energyList.read_energy)
 
-  app.route('/energy/:energyId')
-    .put(energyList.update_energy)
-    .delete(energyList.delete_energy);
+  // app.route('/energy/:energyId')
+  //   .put(energyList.update_energy)
+  //   .delete(energyList.delete_energy);
 };
